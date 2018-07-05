@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //sportCar s = new sportCar();
         Invertebrates invertebrates = new Invertebrates();
+        
+        //the dog is too old
         invertebrates.setAge(30);
         invertebrates.setName("dog");
         invertebrates.getAge();
