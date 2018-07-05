@@ -2,6 +2,7 @@ package com.example.android.javainheritance;
 
 public class Animal {
     String food;
+    int legs;
     int age;
     public Animal()
     {
